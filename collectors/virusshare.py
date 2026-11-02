@@ -1,5 +1,7 @@
 from .base import BaseCollector
 
+
+# yay virusshare does not need an api key
 class VirusShareCollector(BaseCollector):
   @property
   def source_name(self):
